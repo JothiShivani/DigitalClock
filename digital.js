@@ -26,6 +26,7 @@ function formatTimeLeadingWithZero (num){
         <>
       <div className="digital-clock">
         <h1>Digital Clock</h1>
+        <h3>New Version</h3>
         <div className="time">
           {formatTimeLeadingWithZero(formathour(currenttime.getHours()))}
           :
